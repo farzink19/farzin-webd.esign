@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+     
+
+/*body.....................*/
+
+
+body p{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+body h2{
+    color: #66BFBF; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+body h3{
+    color:#11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*header.............................*/
+
+
+header{
+    text-align: center;
+    background-color: #EAF6F6;
+    color: #66BFBF;
+    padding-top: 50px;
+}
+header h1,h2{
+    padding: 5px;
+}
+header h1{
+    font-family: 'Sacramento', cursive;;
+  font-size: 65px;
+  font-style: italic;
+}
+header .a1{
+    position: absolute;
+    right: 150px;
+    top: 20px;
+}
+header .a2{
+    position: absolute;
+  left:150px
+}
+
+
+/*main............................*/
+
+.first{
+    margin: 30px;
+    text-align: center;
+}
+main .first img{
+    background-color: black;
+    border-radius: 100%;
+}  
+main h2{
+    text-align: center; 
+    margin: 40px;
+}
+main .second{
+    position: relative;
+    left: 33%; 
+    display: inline;
+    margin: 20px auto;
+    width: 20%;  
+}
+main .second img{
+    float: left;
+  margin: 10px 10px 0px 0px;
+
+}
+.three{
+  margin-left:  500px ;
+  margin-bottom: 50px;
+
+    
+   
+  }
+ .three img{ 
+float: right;
+  margin-right: 400px; 
+}
+ .forth {
+    text-align: center;
+    margin:40px;
+}
+ button{
+    color: white;
+    border-radius: 6px;
+    width: 120px;
+    background-color: teal;
+   padding: 10px;
+    border: none;
+}
+button:hover{
+    color: yellow;
+}
+hr{
+    border:8px dotted #EAF6F6;
+ border-bottom:none;
+  width: 75px;
+  position: absolute;
+  left: 48%;
+}
+
+
+
+
+/*footer............................*/
+
+footer {
+    background-color: #66BFBF;
+    text-align: center;
+    margin-top: 30px;
+    padding: 30px;   
+}
+footer ul li{
+    list-style-type: none;
+    display: inline-flex;
+    padding: 0px 30px;
+    margin-bottom: 15px;   
+}
+footer ul li a{
+    text-decoration: none;
+    color: #11999E;
+}
+footer ul li a:hover{
+    color: #EAF6F6;
+}
+footer P{
+    color: #EAF6F6;
+}
